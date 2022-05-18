@@ -6,3 +6,12 @@
     background-color: #a9cdd6;
     color: #000000;
 }
+
+.bordercss{
+    border-radius: 1rem;
+    border: 1px solid #a9cdd6;
+}
+
+.ongletcss{
+    color: gold;
+}
