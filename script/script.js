@@ -8,7 +8,7 @@ fetch('script/music.json')
 
         
            
-                <div class="col-lg-3 col-sm-12 bordercss shadow p-3 m-2 mb-5 bg-body rounded">
+                <div class="col-lg-3 col-sm-6 bordercss shadow p-3 m-2 mb-5 bg-body rounded">
                     <img src="img/${element.img}.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class=" card-title text-start fs-4 m-2 p-3">${element.titre}</h5>
