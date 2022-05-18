@@ -7,7 +7,14 @@
     color: #000000;
 }
 
+.bordercss{
+    border-radius: 1rem;
+    border: 1px solid #a9cdd6;
+}
 
+.ongletcss{
+    color: gold;
+}
 .modalstyle{
    
     padding: 1 8rem 1 8rem;

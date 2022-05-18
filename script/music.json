@@ -1,0 +1,192 @@
+{
+    "results": [
+
+
+
+        {
+            "reference": "0001",
+            "titre": "Milestones",
+            "genre": "jazz",
+            "prix": "9.99",
+            "date_de_sortie": "02/09/58",
+            "img": "Milesdavis",
+            "plateform": "cd",
+            "info": "Interpreter par Miles Davis"
+        },
+        {
+            "reference": "0002",
+            "titre": "Keep Your Honey",
+            "genre": "pop",
+            "prix": "12.90",
+            "date_de_sortie": "11/03/2022",
+            "img": "jame",
+            "plateform": "cd",
+            "info": "Interpreter par Crumbsnatchers"
+        },
+        {
+            "reference": "0003",
+            "titre": "Roots Rock Riot",
+            "genre": "metal",
+            "prix": "10.00",
+            "date_de_sortie": "23/10/2007",
+            "img": "Rootrockriot",
+            "plateform": "cd",
+            "info": "Interpreter par le groupe Skindred"
+        },
+        {
+            "reference": "0004",
+            "titre": "Common Knowlegde",
+            "genre": "rap",
+            "prix": "12.90",
+            "date_de_sortie": "11/11/2011",
+            "img": "asherroth",
+            "plateform": "cd",
+            "info": "Interpreter par asher Roth"
+        },
+        {
+            "reference": "0005",
+            "titre": "Meet The Woo",
+            "genre": "rap",
+            "prix": "10.00",
+            "date_de_sortie": "17/04/2019",
+            "img": "meetthewoo",
+            "plateform": "cd",
+            "info": "Interpreter par Pop Smoke"
+        },
+        {
+            "reference": "0006",
+            "titre": "Poplife",
+            "genre": "pop",
+            "prix": "9.90",
+            "date_de_sortie": "18/06/2007",
+            "img": "poplife",
+            "plateform": "cd",
+            "info": "Réaliser et produit par David Guetta"
+        },
+        {
+            "reference": "0007",
+            "titre": "Done with U",
+            "genre": "rock",
+            "prix": "10.00",
+            "date_de_sortie": "21/05/2015",
+            "img": "reignme",
+            "plateform": "cd",
+            "info": "Interpreter par le groupe SadMe"
+        },
+        {
+            "reference": "0008",
+            "titre": "Papaoutai",
+            "genre": "pop",
+            "prix": "9.90",
+            "date_de_sortie": "06/06/2013",
+            "img": "stromae",
+            "plateform": "cd",
+            "info": "Interpreter par le groupe Stromae"
+        },
+        {
+            "reference": "0009",
+            "titre": "Tempête",
+            "genre": "rap",
+            "prix": "12.90",
+            "date_de_sortie": "01/06/2015",
+            "img": "Nekfeu",
+            "plateform": "cd",
+            "info": "Interpreter par le rappeur Nekfeu"
+        },
+
+
+
+
+        {
+            "reference": "0010",
+            "titre": "Instant Crush",
+            "genre": "rock",
+            "prix": "15.00",
+            "date_de_sortie": "22/11/2013",
+            "img": "daftpunk",
+            "plateform": "vinyle",
+            "info": "interpreter par le groupe Daft Punk"
+        },
+        {
+            "reference": "0011",
+            "titre": "Thriller",
+            "genre": "pop",
+            "prix": "10.90",
+            "date_de_sortie": "30/11/1982",
+            "img": "Thriller",
+            "plateform": "vinyle",
+            "info": "Interpreter par Michael Jackson"
+        },
+        {
+            "reference": "0012",
+            "titre": "The Dark Side Of the Moon",
+            "genre": "rock",
+            "prix": "9.90",
+            "date_de_sortie": "01/03/1973",
+            "img": "PinkFloys",
+            "plateform": "vinyle",
+            "info": "Interpreter par le groupe Pink Floyd"
+        },
+        {
+            "reference": "0013",
+            "titre": "Abbey Road",
+            "genre": "pop",
+            "prix": "9.90",
+            "date_de_sortie": "26/09/1969",
+            "img": "AbbeyRoad",
+            "plateform": "vinyle",
+            "info": "Interpreter par le groupe The Beatles"
+        },
+        {
+            "reference": "0014",
+            "titre": "Nevermind",
+            "genre": "rock",
+            "prix": "9.90",
+            "date_de_sortie": "24/09/1991",
+            "img": "Nevermind",
+            "plateform": "vinyle",
+            "info": "Interpreter par le groupe Nirvana"
+        },
+        {
+            "reference": "0015",
+            "titre": "Let it Bleed",
+            "genre": "pop",
+            "prix": "9.90",
+            "date_de_sortie": "05/12/1969",
+            "img": "RollingStones",
+            "plateform": "vinyle",
+            "info": "interpreter par le groupe The Rolling Stones"
+        },
+        {
+            "reference": "0016",
+            "titre": "Master of puppets",
+            "genre": "rock",
+            "prix": "10.00",
+            "date_de_sortie": "03/03/1986",
+            "img": "metallica",
+            "plateform": "vinyle",
+            "info": "Interpreter par le groupe Metallica"
+        },
+        {
+            "reference": "0017",
+            "titre": "Highway to Hell",
+            "genre": "rock",
+            "prix": "10.00",
+            "date_de_sortie": "03/08/1979",
+            "img": "Highttohell",
+            "plateform": "vynile",
+            "info": "Interpreter par le groupe AC DC"
+        },
+        {
+            "reference": "0018",
+            "titre": "The Marshall Mathers",
+            "genre": "rap",
+            "prix": "11.90",
+            "date_de_sortie": "23/05/2000",
+            "img": "TheMarshallMathers",
+            "plateform": "vynile",
+            "info": "Interpreter par le rappeur Eminem"
+        }
+
+    ]
+}
