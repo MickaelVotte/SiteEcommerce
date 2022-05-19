@@ -33,8 +33,8 @@ fetch('script/music.json')
         `
         });
     })
-let montableau = []
 
+let index = 0
 
 function ajoutepanier(element) {
     
@@ -46,15 +46,20 @@ function ajoutepanier(element) {
 
     myajoute.innerHTML +=
         `
-                    <tr class="align-middle">
+                    <tr class="align-middle" id="chiffre-${index}">
                     <td><img class="img-panier" src='img/${donnee[1]}.jpg'  alt=""></td>
                     <td>${donnee[2]}</td>
                     <td>${donnee[3]}</td>
                     <td>${donnee[4]}</td>
                     <td>${donnee[0]}€</td>
+                    <td><button type="button" class="btn-close border border-dark text text-end" aria-label="Close" onclick="supprimer('chiffre-${index}')"></button></td>
                 </tr>
                 
                 `
+                index++
+                
+
+                
 
 }
 
