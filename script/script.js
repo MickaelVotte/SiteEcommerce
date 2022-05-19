@@ -1,14 +1,14 @@
 fetch('script/music.json')
-.then(response => response.json())
+    .then(response => response.json())
 
-.then(data => {
-    data.results.forEach(element => {
-        toutlesimages.innerHTML += `
+    .then(data => {
+        data.results.forEach(element => {
+            toutlesimages.innerHTML += `
 
 
         
            
-                <div class="col-lg-3 col-sm-6 bordercss shadow p-3 m-2 mb-5 bg-body rounded">
+                <div class="col-lg-3 col-sm-6 bordercss shadow p-3 m-2 mb-5 bg-body rounded" id="apparait">
                     <img src="img/${element.img}.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class=" card-title text-start fs-4 m-2 p-3">${element.titre}</h5>
@@ -22,15 +22,42 @@ fetch('script/music.json')
                         </div>
                         </div>
                         <div class="col d-flex justify-content-end">
-                            <a class=" mt-3 pt-1 btn btn-dark" href="#">Ajouter aupanier <i class="bi bi-bag ps-2"></i></a>
+                            <a class=" mt-3 pt-1 btn btn-dark" href="#" onclick="ajoutepanier('${element.prix},${element.img},${element.reference},${element.titre},${element.info}')">Ajouter aupanier <i class="bi bi-bag ps-2"></i></a>
                         </div>
                         </div>
                         
                     </div>
                 </div>
-            
-       
+        
         
         `
-    });
-})
+        });
+    })
+let montableau = []
+
+
+function ajoutepanier(element) {
+    
+
+    let donnee = element.split(',')
+    console.log(donnee)
+    let apparait = document.getElementById('apparait')
+    let myajoute = document.getElementById('myajoute')
+
+    myajoute.innerHTML +=
+        `
+                    <tr class="align-middle">
+                    <td><img class="img-panier" src='img/${donnee[1]}.jpg'  alt=""></td>
+                    <td>${donnee[2]}</td>
+                    <td>${donnee[3]}</td>
+                    <td>${donnee[4]}</td>
+                    <td>${donnee[0]}€</td>
+                </tr>
+                
+                `
+
+}
+
+
+                
+                
