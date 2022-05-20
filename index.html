@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link ongletcss"  href='#' id="boutonSingle">Single</a>
+                        <a class="nav-link ongletcss" href='#' id="boutonSingle">Single</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ongletcss" href="#" id="boutonVinyle">Disque Vinyle</a>
@@ -47,22 +47,18 @@
     </nav>
 
     <!-- modal -->
+    <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Mon panier <i class="bi bi-bag"></i></h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-
-                    <!-- affiche du panier debut  -->
-
-
-
-                    <div class=" row text-center paniertext">
+                    <div class="table-responsive">
                         <table class="table">
-                            <thead class="bg-secondary text-light">
+                            <thead>
                                 <tr>
                                     <th scope="col"></th>
                                     <th scope="col">reference</th>
@@ -70,38 +66,34 @@
                                     <th scope="col">artiste</th>
                                     <th scope="col">quantite</th>
                                     <th scope="col">prix</th>
+                                    <th scope="col">sous total</th>
                                     <th scope="col"></th>
                                 </tr>
                             </thead>
                             <tbody id="myajoute">
-                               
+                                
                             </tbody>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td class="fw-bold fs-4">Total</td>
-                                <td></td>
-                            </tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td  class="fw-bold fs-4">Total: <span id="myTotal"></span></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
                         </table>
-                        
                     </div>
-                    <!-- affichage du panier fin  -->
-
-
-
-
                 </div>
-                
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Retour</button>
-                    <button type="button" class="btn btn-primary">Valider</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- modal fin  -->
 
 
@@ -116,10 +108,10 @@
     </div>
 
 
-   
-        
-            <div class="row m-0 p-0 d-flex justify-content-evenly" id="toutlesimages">
-            </div>
+
+
+    <div class="row m-0 p-0 d-flex justify-content-evenly" id="toutlesimages">
+    </div>
 
 
 
@@ -133,7 +125,7 @@
 
 
 
-    
+
 
 
 

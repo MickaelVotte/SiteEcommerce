@@ -11,7 +11,8 @@
             "date_de_sortie": "02/09/58",
             "img": "Milesdavis",
             "plateform": "cd",
-            "info": "Interpreter par Miles Davis"
+            "info": "Interpreter par Miles Davis",
+            "quantite": "1"
         },
         {
             "reference": "0002",
@@ -21,7 +22,8 @@
             "date_de_sortie": "11/03/2022",
             "img": "jame",
             "plateform": "cd",
-            "info": "Interpreter par Crumbsnatchers"
+            "info": "Interpreter par Crumbsnatchers",
+            "quantite": "1"
         },
         {
             "reference": "0003",
@@ -31,7 +33,8 @@
             "date_de_sortie": "23/10/2007",
             "img": "Rootrockriot",
             "plateform": "cd",
-            "info": "Interpreter par le groupe Skindred"
+            "info": "Interpreter par le groupe Skindred",
+            "quantite": "1"
         },
         {
             "reference": "0004",
@@ -41,7 +44,8 @@
             "date_de_sortie": "11/11/2011",
             "img": "asherroth",
             "plateform": "cd",
-            "info": "Interpreter par asher Roth"
+            "info": "Interpreter par asher Roth",
+            "quantite": "1"
         },
         {
             "reference": "0005",
@@ -51,7 +55,8 @@
             "date_de_sortie": "17/04/2019",
             "img": "meetthewoo",
             "plateform": "cd",
-            "info": "Interpreter par Pop Smoke"
+            "info": "Interpreter par Pop Smoke",
+            "quantite": "1"
         },
         {
             "reference": "0006",
@@ -61,7 +66,8 @@
             "date_de_sortie": "18/06/2007",
             "img": "poplife",
             "plateform": "cd",
-            "info": "Réaliser et produit par David Guetta"
+            "info": "Réaliser et produit par David Guetta",
+            "quantite": "1"
         },
         {
             "reference": "0007",
@@ -71,7 +77,8 @@
             "date_de_sortie": "21/05/2015",
             "img": "reignme",
             "plateform": "cd",
-            "info": "Interpreter par le groupe SadMe"
+            "info": "Interpreter par le groupe SadMe",
+            "quantite": "1"
         },
         {
             "reference": "0008",
@@ -81,7 +88,8 @@
             "date_de_sortie": "06/06/2013",
             "img": "stromae",
             "plateform": "cd",
-            "info": "Interpreter par le groupe Stromae"
+            "info": "Interpreter par le groupe Stromae",
+            "quantite": "1"
         },
         {
             "reference": "0009",
@@ -91,7 +99,8 @@
             "date_de_sortie": "01/06/2015",
             "img": "Nekfeu",
             "plateform": "cd",
-            "info": "Interpreter par le rappeur Nekfeu"
+            "info": "Interpreter par le rappeur Nekfeu",
+            "quantite": "1"
         },
 
 
@@ -105,7 +114,8 @@
             "date_de_sortie": "22/11/2013",
             "img": "daftpunk",
             "plateform": "vinyle",
-            "info": "interpreter par le groupe Daft Punk"
+            "info": "interpreter par le groupe Daft Punk",
+            "quantite": "1"
         },
         {
             "reference": "0011",
@@ -115,7 +125,8 @@
             "date_de_sortie": "30/11/1982",
             "img": "Thriller",
             "plateform": "vinyle",
-            "info": "Interpreter par Michael Jackson"
+            "info": "Interpreter par Michael Jackson",
+            "quantite": "1"
         },
         {
             "reference": "0012",
@@ -125,7 +136,8 @@
             "date_de_sortie": "01/03/1973",
             "img": "PinkFloys",
             "plateform": "vinyle",
-            "info": "Interpreter par le groupe Pink Floyd"
+            "info": "Interpreter par le groupe Pink Floyd",
+            "quantite": "1"
         },
         {
             "reference": "0013",
@@ -135,7 +147,8 @@
             "date_de_sortie": "26/09/1969",
             "img": "AbbeyRoad",
             "plateform": "vinyle",
-            "info": "Interpreter par le groupe The Beatles"
+            "info": "Interpreter par le groupe The Beatles",
+            "quantite": "1"
         },
         {
             "reference": "0014",
@@ -145,7 +158,8 @@
             "date_de_sortie": "24/09/1991",
             "img": "Nevermind",
             "plateform": "vinyle",
-            "info": "Interpreter par le groupe Nirvana"
+            "info": "Interpreter par le groupe Nirvana",
+            "quantite": "1"
         },
         {
             "reference": "0015",
@@ -155,7 +169,8 @@
             "date_de_sortie": "05/12/1969",
             "img": "RollingStones",
             "plateform": "vinyle",
-            "info": "interpreter par le groupe The Rolling Stones"
+            "info": "interpreter par le groupe The Rolling Stones",
+            "quantite": "1"
         },
         {
             "reference": "0016",
@@ -165,7 +180,8 @@
             "date_de_sortie": "03/03/1986",
             "img": "metallica",
             "plateform": "vinyle",
-            "info": "Interpreter par le groupe Metallica"
+            "info": "Interpreter par le groupe Metallica",
+            "quantite": "1"
         },
         {
             "reference": "0017",
@@ -175,7 +191,8 @@
             "date_de_sortie": "03/08/1979",
             "img": "Highttohell",
             "plateform": "vinyle",
-            "info": "Interpreter par le groupe AC DC"
+            "info": "Interpreter par le groupe AC DC",
+            "quantite": "1"
         },
         {
             "reference": "0018",
@@ -185,8 +202,11 @@
             "date_de_sortie": "23/05/2000",
             "img": "TheMarshallMathers",
             "plateform": "vinyle",
-            "info": "Interpreter par le rappeur Eminem"
+            "info": "Interpreter par le rappeur Eminem",
+            "quantite": "1"
         }
 
     ]
 }
+
+
