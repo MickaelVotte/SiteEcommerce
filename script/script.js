@@ -8,7 +8,7 @@ fetch('script/music.json')
 
         
            
-                <div class="col-lg-3 col-sm-6 bordercss shadow p-3 m-2 mb-5 bg-body rounded" id="apparait">
+                <div data-type="${element.plateform}" class="col-lg-3 col-sm-6 bordercss shadow p-3 m-2 mb-5 bg-body rounded" id="apparait">
                     <img src="img/${element.img}.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class=" card-title text-start fs-4 m-2 p-3">${element.titre}</h5>
@@ -34,13 +34,51 @@ fetch('script/music.json')
         });
     })
 
-let index = 0
+    let boutonSingle = document.getElementById('boutonSingle')
+    let boutonVinyle = document.getElementById('boutonVinyle')
+    
+    
+    boutonSingle.addEventListener("click", () => {
+        const vinyle = document.querySelectorAll("[data-type='vinyle']")
+        const single = document.querySelectorAll("[data-type='cd']")
+    
+        vinyle.forEach(element => {
+            console.log(element);
+            element.style.display = 'none'
+        })
+    
+        single.forEach(element => {
+            element.style.display = 'block'
+        })
+    
+    })
+    
+    
+    
+    boutonVinyle.addEventListener("click", () => {
+        const vinyle = document.querySelectorAll("[data-type='vinyle']")
+        const single = document.querySelectorAll("[data-type='cd']")
+    
+        vinyle.forEach(element => {
+            console.log(element);
+            element.style.display = 'block'
+            console.log(vinyle)
+        })
+    
+        single.forEach(element => {
+            element.style.display = 'none'
+        })
+    })
+
+
+
+    let montableau = []
 
 function ajoutepanier(element) {
-    
+    let index = 0
 
     let donnee = element.split(',')
-    console.log(donnee)
+    
     let apparait = document.getElementById('apparait')
     let myajoute = document.getElementById('myajoute')
 
@@ -51,17 +89,25 @@ function ajoutepanier(element) {
                     <td>${donnee[2]}</td>
                     <td>${donnee[3]}</td>
                     <td>${donnee[4]}</td>
+                    <td>1</td>
                     <td>${donnee[0]}€</td>
                     <td><button type="button" class="btn-close border border-dark text text-end" aria-label="Close" onclick="supprimer('chiffre-${index}')"></button></td>
-                </tr>
+                </tr>`
                 
-                `
                 index++
                 
+}
 
-                
+
+function supprimer (chiffreId){
+
+    let effacer = document.getElementById(chiffreId)
+    montableau.splice(effacer,1)
+    effacer.remove()
+
 
 }
+
 
 
                 
