@@ -77,10 +77,9 @@ let montableau = []
 function pushPanier(test) {
     montableau.push(test)
 }
-
 // ajoute au panier 
 function ajoutepanier(element) {
-    let index = 0
+
 
     let donnee = element.split(',')
     // let apparait = document.getElementById('apparait')
@@ -89,11 +88,11 @@ function ajoutepanier(element) {
     let myajoute = document.getElementById('myajoute')
 
     if (montableau.indexOf(donnee[2]) < 0) {
-       
+
 
         myajoute.innerHTML +=
             `
-                    <tr class="align-middle" id="chiffre-${index}">
+                    <tr class="align-middle" id="chiffre-${donnee[2]}">
                     <td><img class="img-panier" src='img/${donnee[1]}.jpg'  alt=""></td>
                     <td id="maRef${donnee[2]}">${donnee[2]}</td>
                     <td>${donnee[3]}</td>
@@ -101,53 +100,49 @@ function ajoutepanier(element) {
                     <td id="maQuantite${donnee[2]}">${donnee[5]}</td>
                     <td id="monPrix${donnee[2]}">${donnee[0]}€</td>
                     <td id="monSoustotal${donnee[2]}"></td>
-                    <td><button type="button" class="btn-close border border-dark text text-end" aria-label="Close" onclick="supprimer('chiffre-${index}')"></button></td>
+                    <td><button type="button" class="btn-close border border-dark text text-end" aria-label="Close" onclick="supprimer('${donnee[2]}')"></button></td>
                 </tr>
-         `       
+         `
 
         pushPanier(donnee[2])
         monsoustotal(donnee[2])
     } else {
         let maQuantite = document.getElementById("maQuantite" + donnee[2])
         let ancien = maQuantite.innerText
-        let nouvelle = Number(ancien)+1
-        maQuantite.innerHTML= nouvelle
-         monsoustotal(donnee[2])
+        let nouvelle = Number(ancien) + 1
+        maQuantite.innerHTML = nouvelle
+        monsoustotal(donnee[2])
 
     }
-    index++
+
+    console.log(donnee)
     monTotal += Number(donnee[0])
-    document.getElementById('myTotal').innerHTML= monTotal
+    document.getElementById('myTotal').innerHTML = monTotal
 }
 
 
-function monsoustotal(reference){
+function monsoustotal(reference) {
 
-    let maQuantite = document.getElementById ('maQuantite' + reference)
+    let maQuantite = document.getElementById('maQuantite' + reference)
     let monSoustotal = document.getElementById('monSoustotal' + reference)
     let monPrix = document.getElementById('monPrix' + reference)
     let result = parseFloat(maQuantite.innerText) * parseFloat(monPrix.innerText)
-    monSoustotal.innerHTML=result
+    monSoustotal.innerHTML = result
 
 }
 
 
 
 
+function supprimer(ref) {
+    let monTotal = parseFloat(document.getElementById('myTotal').innerHTML)
+    monTotal -= parseFloat(document.getElementById('monSoustotal' + ref).innerHTML)
+    document.getElementById('myTotal').innerHTML = parseFloat(monTotal)
 
-
-
-
-
-
-
-function supprimer(chiffreId) {
-
-    let effacer = document.getElementById(chiffreId)
+    let effacer = document.getElementById('chiffre-' + ref)
     montableau.splice(effacer, 1)
     effacer.remove()
-
-
+    
 }
 
 
